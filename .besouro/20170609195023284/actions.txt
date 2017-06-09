@@ -83,3 +83,8 @@ RefactoringAction 1497031639152 BowlingException.java ADD BowlingException() MET
 RefactoringAction 1497031650209 BowlingException.java ADD BowlingException()/2 METHOD
 RefactoringAction 1497031654740 BowlingException.java RENAME BowlingException()/2=>BowlingException(String) METHOD
 EditAction 1497031662212 BowlingException.java 172 2 2 0
+RefactoringAction 1497031682493 TestBowling.java REMOVE testingIfInvalidScoreThrowsException() METHOD
+RefactoringAction 1497031686020 TestBowling.java ADD void testIf FIELD
+RefactoringAction 1497031692549 TestBowling.java RENAME testIf=>void testIfAddingFrame FIELD
+RefactoringAction 1497031698590 TestBowling.java RENAME testIfAddingFrame=>void testIfAddingFrameIsWorking() METHOD
+EditAction 1497031840432 TestBowling.java 702 4 9 4

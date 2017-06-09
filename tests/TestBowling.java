@@ -1,6 +1,9 @@
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
+
+import jdk.nashorn.internal.ir.ThrowNode;
 
 public class TestBowling {
 	
@@ -24,5 +27,13 @@ public class TestBowling {
 		fr = new Frame(4,3);
 		assertEquals(7, fr.score());
 	}
+	
+	@Test
+	public void testIfAddingFrameIsWorking(){
+		fr = new Frame(4,3);
+		bg.addFrame(fr);
+		assertEquals(2, bg.getFrame().size());
+	}
+	
 
 }
