@@ -72,5 +72,15 @@ public class TestBowling {
 		assertEquals(28, bg.scoreBonus());
 	}
 	
+	@Test
+	public void testIfBonusIsReturnedWhenSpare() throws BowlingException{
+		fr = new Frame(6,4);
+		Frame fr1 = new Frame(3,4);
+		bg = new BowlingGame();
+		bg.addFrame(fr);
+		bg.addFrame(fr1);
+		assertEquals(20, bg.scoreBonus());
+	}
+	
 
 }
