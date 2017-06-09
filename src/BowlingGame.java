@@ -46,10 +46,9 @@ public class BowlingGame {
 			if(frames.get(i-1).isStrike()){
 				bonusPoints += bonus.getFirstThrow() + bonus.getSecondThrow();
 			}
-			if(frames.get(i-1).isSpare()){
+			else if(frames.get(i-1).isSpare()){
 				bonusPoints += bonus.getFirstThrow();
 			}
-			
 			
 		}
 		return score() + bonusPoints;
