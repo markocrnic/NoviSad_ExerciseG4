@@ -166,3 +166,4 @@ RefactoringAction 1497033359119 Frame.java ADD int bonus FIELD
 RefactoringAction 1497033373651 Frame.java ADD int bonusScore() METHOD
 RefactoringAction 1497033545995 BowlingGame.java ADD int bonusPoints FIELD
 EditAction 1497033617788 BowlingGame.java 1265 6 6 0
+EditAction 1497033621337 Frame.java 871 7 10 0
