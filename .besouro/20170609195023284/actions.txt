@@ -58,3 +58,24 @@ EditAction 1497031324073 Frame.java 764 6 9 0
 UnitTestCaseAction 1497031329612 TestBowling.java FAIL
 UnitTestSessionAction 1497031329613 TestBowling.java FAIL
 EditAction 1497031333325 Frame.java 762 6 10 0
+UnitTestCaseAction 1497031338367 TestBowling.java OK
+UnitTestSessionAction 1497031338380 TestBowling.java OK
+RefactoringAction 1497031368322 TestBowling.java ADD import org.junit.rules.ExpectedException IMPORT
+RefactoringAction 1497031374372 TestBowling.java ADD ExpectedException BowlingException FIELD
+RefactoringAction 1497031377899 TestBowling.java RENAME BowlingException=>Test ExpectedException FIELD
+RefactoringAction 1497031379921 TestBowling.java RENAME ExpectedException=>ExpectedException BowlingException FIELD
+RefactoringAction 1497031385979 TestBowling.java REMOVE BowlingException FIELD
+RefactoringAction 1497031396037 TestBowling.java ADD excpet ex FIELD
+RefactoringAction 1497031400564 TestBowling.java RENAME ex=>excpet BownlingExc FIELD
+RefactoringAction 1497031403593 TestBowling.java RENAME BownlingExc=>excpet BownlingException FIELD
+RefactoringAction 1497031416239 TestBowling.java REMOVE BownlingException FIELD
+RefactoringAction 1497031490459 TestBowling.java ADD void testingIfScoreI FIELD
+RefactoringAction 1497031498490 TestBowling.java RENAME testingIfScoreI=>void testingIfScoreAbove FIELD
+RefactoringAction 1497031499516 TestBowling.java RENAME testingIfScoreAbove=>void testingIfScoreAbove10 FIELD
+RefactoringAction 1497031501548 TestBowling.java RENAME testingIfScoreAbove10=>void testingIfScore FIELD
+RefactoringAction 1497031505080 TestBowling.java RENAME testingIfScore=>void testingIfInva FIELD
+RefactoringAction 1497031507615 TestBowling.java RENAME testingIfInva=>void testingIfInvalidScore FIELD
+RefactoringAction 1497031511652 TestBowling.java RENAME testingIfInvalidScore=>void testingIfInvalidScoreThrowsException() METHOD
+RefactoringAction 1497031577446 TestBowling.java ADD import jdk.nashorn.internal.ir.ThrowNode IMPORT
+RefactoringAction 1497031624427 Frame.java ADD int bonus FIELD
+EditAction 1497031625035 Frame.java 787 6 10 0
