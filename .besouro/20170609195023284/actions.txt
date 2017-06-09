@@ -52,3 +52,6 @@ RefactoringAction 1497031252246 TestBowling.java RENAME testingIf=>void testingI
 RefactoringAction 1497031253268 TestBowling.java RENAME testingIfF=>void testingIfFrame FIELD
 RefactoringAction 1497031258287 TestBowling.java RENAME testingIfFrame=>void testingIfFrameReturnsScore() METHOD
 EditAction 1497031298394 TestBowling.java 466 3 6 3
+UnitTestCaseAction 1497031303975 TestBowling.java OK
+UnitTestSessionAction 1497031303977 TestBowling.java OK
+EditAction 1497031324073 Frame.java 764 6 9 0
