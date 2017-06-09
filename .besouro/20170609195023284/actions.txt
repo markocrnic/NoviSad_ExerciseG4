@@ -194,3 +194,14 @@ EditAction 1497034199593 BowlingGame.java 1351 6 6 0
 UnitTestCaseAction 1497034203736 TestBowling.java FAIL
 UnitTestSessionAction 1497034203739 TestBowling.java FAIL
 EditAction 1497034290597 BowlingGame.java 1351 6 6 0
+UnitTestCaseAction 1497034294817 TestBowling.java OK
+UnitTestSessionAction 1497034294820 TestBowling.java OK
+RefactoringAction 1497034333197 TestBowling.java ADD void Test FIELD
+RefactoringAction 1497034334793 TestBowling.java RENAME Test=>void test FIELD
+RefactoringAction 1497034338836 TestBowling.java RENAME test=>void testIf FIELD
+RefactoringAction 1497034354378 TestBowling.java RENAME testIf=>void testIfLastFrame FIELD
+RefactoringAction 1497034357928 TestBowling.java RENAME testIfLastFrame=>void testIfLastFrameWhenStrike FIELD
+RefactoringAction 1497034370473 TestBowling.java RENAME testIfLastFrameWhenStrike=>void testIfLastFrameWhenStrikeGives FIELD
+RefactoringAction 1497034373530 TestBowling.java RENAME testIfLastFrameWhenStrikeGives=>void testIfLastFrameWhenStrikeGivesThirdThrow FIELD
+RefactoringAction 1497034381092 TestBowling.java RENAME testIfLastFrameWhenStrikeGivesThirdThrow=>void testIfLastFrameWhenStrikeGivesThirdThrow() METHOD
+EditAction 1497034729393 BowlingGame.java 1415 6 6 0

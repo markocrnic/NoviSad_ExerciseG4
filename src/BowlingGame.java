@@ -43,10 +43,10 @@ public class BowlingGame {
 		for(int i = 1; i<frames.size(); i++){
 				
 			bonus = frames.get(i);
-			if(frames.get(i-1).isStrike()){
+			if(frames.get(i-1).isStrike()&&frames.get(i-1)!=frames.get(9)){
 				bonusPoints += bonus.getFirstThrow() + bonus.getSecondThrow();
 			}
-			else if(frames.get(i-1).isSpare()){
+			else if(frames.get(i-1).isSpare()&&frames.get(i-1)!=frames.get(9)){
 				bonusPoints += bonus.getFirstThrow();
 			}
 			
