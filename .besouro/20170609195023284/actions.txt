@@ -1,0 +1,16 @@
+FileOpenedAction 1497030623877 BowlingException.java 58 0 0 0
+RefactoringAction 1497030865317 TestBowling.java ADD BowlingGame bg FIELD
+RefactoringAction 1497030885896 TestBowling.java ADD Frame fr FIELD
+RefactoringAction 1497030895926 TestBowling.java RENAME test()=>void testingIf() METHOD
+RefactoringAction 1497030896953 TestBowling.java RENAME testingIf()=>void testingIfF() METHOD
+RefactoringAction 1497030900491 TestBowling.java RENAME testingIfF()=>void testingIfFirst() METHOD
+RefactoringAction 1497030905016 TestBowling.java RENAME testingIfFirst()=>void testingIfFirstThw() METHOD
+RefactoringAction 1497030906038 TestBowling.java RENAME testingIfFirstThw()=>void testingIfFirstThro() METHOD
+RefactoringAction 1497030908561 TestBowling.java RENAME testingIfFirstThro()=>void testingIfFirstThrow() METHOD
+RefactoringAction 1497030913098 TestBowling.java RENAME testingIfFirstThrow()=>void testingIfFirstThrowIsGiving() METHOD
+RefactoringAction 1497030916133 TestBowling.java RENAME testingIfFirstThrowIsGiving()=>void testingIfFirstThrowIsGivingGoodScore() METHOD
+RefactoringAction 1497030919160 TestBowling.java RENAME testingIfFirstThrowIsGivingGoodScore()=>void testingIfFirstThrow() METHOD
+RefactoringAction 1497030930188 TestBowling.java RENAME testingIfFirstThrow()=>void testingIf() METHOD
+RefactoringAction 1497030932716 TestBowling.java RENAME testingIf()=>void testingIfStrike() METHOD
+RefactoringAction 1497030936832 TestBowling.java RENAME testingIfStrike()=>void testingIfStrikeIsWorking() METHOD
+EditAction 1497030992230 TestBowling.java 272 1 2 1
