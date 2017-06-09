@@ -137,3 +137,4 @@ RefactoringAction 1497032856624 TestBowling.java RENAME testIf=>void testIfBowli
 RefactoringAction 1497032859158 TestBowling.java RENAME testIfBowlingGame=>void testIfBowlingGameReturn FIELD
 RefactoringAction 1497032862206 TestBowling.java RENAME testIfBowlingGameReturn=>void testIfBowlingGameReturnsScore() METHOD
 EditAction 1497032902746 TestBowling.java 1594 6 36 5
+EditAction 1497032908682 BowlingGame.java 953 5 3 0
