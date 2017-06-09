@@ -29,10 +29,10 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testIfAddingFrameIsWorking(){
+	public void testIfAddingFrameIsWorking() throws BowlingException{
 		fr = new Frame(4,3);
 		bg.addFrame(fr);
-		assertEquals(1, bg.getFrame());
+		assertEquals(1, bg.getFrames());
 	}
 	
 
