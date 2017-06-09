@@ -44,12 +44,12 @@ public class BowlingGame {
 				
 			bonus = frames.get(i);
 			if(frames.get(i-1).isStrike()){
-				bonusPoints = bonus.getFirstThrow() + bonus.getSecondThrow();
+				bonusPoints += bonus.getFirstThrow() + bonus.getSecondThrow();
 			}
 			
-			score = frames.get(i-1).getFirstThrow() + frames.get(i-1).getSecondThrow() + bonusPoints;
+			
 		}
-		return score;
+		return score() + bonusPoints;
 	}
 
 	public int getFrames() {
