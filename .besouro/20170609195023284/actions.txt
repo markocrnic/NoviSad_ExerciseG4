@@ -24,3 +24,19 @@ EditAction 1497031059427 Frame.java 714 6 8 0
 CompilationAction 1497031062766 TestBowling.java
 CompilationAction 1497031062767 TestBowling.java
 EditAction 1497031083243 Frame.java 732 6 9 0
+UnitTestCaseAction 1497031090976 TestBowling.java FAIL
+UnitTestSessionAction 1497031090978 TestBowling.java FAIL
+CompilationAction 1497031108191 TestBowling.java
+CompilationAction 1497031108192 TestBowling.java
+CompilationAction 1497031108354 TestBowling.java
+CompilationAction 1497031111191 TestBowling.java
+CompilationAction 1497031111470 TestBowling.java
+CompilationAction 1497031124256 TestBowling.java
+UnitTestCaseAction 1497031126505 TestBowling.java OK
+UnitTestSessionAction 1497031126506 TestBowling.java OK
+RefactoringAction 1497031138233 TestBowling.java ADD void testingIF FIELD
+RefactoringAction 1497031139759 TestBowling.java RENAME testingIF=>void testingIfS FIELD
+RefactoringAction 1497031140787 TestBowling.java RENAME testingIfS=>void testingIfSp FIELD
+RefactoringAction 1497031143318 TestBowling.java RENAME testingIfSp=>void testingIfSpare FIELD
+RefactoringAction 1497031149356 TestBowling.java RENAME testingIfSpare=>void testingIfSpareIsWorking() METHOD
+EditAction 1497031166715 TestBowling.java 348 2 4 2
