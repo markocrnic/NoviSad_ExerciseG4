@@ -1,12 +1,18 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int thirdThrow;
 	private int score = 0;
 	private int bonus = 0;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+	}
+	public Frame(int firstThrow, int secondThrow, int ThirdThrow){
+		this.firstThrow = firstThrow;
+		this.secondThrow = secondThrow;
+		this.thirdThrow = thirdThrow;
 	}
 	
 	public int getFirstThrow() {
@@ -15,6 +21,9 @@ public class Frame {
 
 	public int getSecondThrow() {
 		return secondThrow;
+	}
+	public int getThirdThrow() {
+		return thirdThrow;
 	}
 
 	//returns the score of a single frame

@@ -220,3 +220,7 @@ RefactoringAction 1497035109222 Frame.java ADD int getSecondThrow()/2 METHOD
 RefactoringAction 1497035112756 Frame.java RENAME getSecondThrow()/2=>int getThirdThrow() METHOD
 RefactoringAction 1497035144526 BowlingGame.java REMOVE thirdThrow() METHOD
 EditAction 1497035149245 BowlingGame.java 1655 6 6 0
+CompilationAction 1497035152697 BowlingGame.java
+UnitTestCaseAction 1497035154495 TestBowling.java FAIL
+UnitTestSessionAction 1497035154497 TestBowling.java FAIL
+EditAction 1497035187040 BowlingGame.java 1656 6 6 0
