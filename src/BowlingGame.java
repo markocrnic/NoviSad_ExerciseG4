@@ -29,17 +29,13 @@ public class BowlingGame {
 		//to be implemented
 	}
 	
-	public int getFrames(){
-		int counter = 0;
-		for(int i = 0; i<frames.size(); i++){
-			counter++;
-		}
-		return counter;
-	}
-	
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score 
 		return 0;
+	}
+
+	public List<Frame> getFrames() {
+		return frames;
 	}
 }
