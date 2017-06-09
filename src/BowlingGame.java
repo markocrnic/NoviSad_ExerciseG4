@@ -47,7 +47,7 @@ public class BowlingGame {
 				bonusPoints = bonus.getFirstThrow() + bonus.getSecondThrow();
 			}
 			
-			score += bonusPoints;
+			score = frames.get(i-1).getFirstThrow() + frames.get(i-1).getSecondThrow() + bonusPoints;
 		}
 		return score;
 	}
