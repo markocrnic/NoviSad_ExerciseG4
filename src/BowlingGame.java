@@ -18,7 +18,7 @@ public class BowlingGame {
 	
 	// adds a frame to the game
 	public void addFrame(Frame frame) throws BowlingException{
-		if(frames.size()<=10){
+		if(frames.size()<10){
 			frames.add(frame);
 		}
 		else{
@@ -50,7 +50,7 @@ public class BowlingGame {
 			else if(frames.get(i-1).isSpare()&&frames.get(i-1)!=frames.get(9)){
 				bonusPoints += bonus.getFirstThrow();
 			}else if(frames.get(i).isStrike()&&frames.get(i) == frames.get(9)){
-				bonusPoints += bonus.score();
+				bonusPoints += bonus.score() + bonus.getThirdThrow();
 			}else if(frames.get(i).isSpare()&&frames.get(i) == frames.get(9)){
 				bonusPoints += bonus.score() + bonus.getThirdThrow();
 			}
