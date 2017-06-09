@@ -11,6 +11,7 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
+	private int bonusPoints=0;
 	private int score = 0;
 	
 	public BowlingGame(){}
@@ -39,7 +40,15 @@ public class BowlingGame {
 	}
 	
 	public int scoreBonus(){
-		return 0;
+		for(int i = 0; i<frames.size(); i++){
+			bonus = frames.get(i+1);
+			if(frames.get(i).isStrike()){
+				bonusPoints = bonus.getFirstThrow() + bonus.getSecondThrow();
+			}
+			
+			score += bonusPoints;
+		}
+		return score;
 	}
 
 	public int getFrames() {

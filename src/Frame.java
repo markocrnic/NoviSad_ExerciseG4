@@ -2,7 +2,6 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	private int score = 0;
-	private int bonus = 0;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;

@@ -160,3 +160,9 @@ RefactoringAction 1497033123230 BowlingGame.java RENAME scoreWith=>int scoreBonu
 EditAction 1497033232320 TestBowling.java 1887 7 43 6
 CompilationAction 1497033235692 TestBowling.java
 EditAction 1497033236469 BowlingGame.java 1019 6 5 0
+UnitTestCaseAction 1497033243614 TestBowling.java FAIL
+UnitTestSessionAction 1497033243615 TestBowling.java FAIL
+RefactoringAction 1497033359119 Frame.java ADD int bonus FIELD
+RefactoringAction 1497033373651 Frame.java ADD int bonusScore() METHOD
+RefactoringAction 1497033545995 BowlingGame.java ADD int bonusPoints FIELD
+EditAction 1497033617788 BowlingGame.java 1265 6 6 0
