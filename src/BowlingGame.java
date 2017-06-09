@@ -41,7 +41,7 @@ public class BowlingGame {
 	}
 	
 	public int scoreBonus(){
-		for(int i = 1; i<frames.size(); i++){
+		for(int i = 1; i<=frames.size(); i++){
 				
 			bonus = frames.get(i);
 			if(frames.get(i-1).isStrike()&&frames.get(i-1)!=frames.get(9)){
