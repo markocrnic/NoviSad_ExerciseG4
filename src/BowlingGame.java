@@ -30,7 +30,11 @@ public class BowlingGame {
 	}
 	
 	public int getFrames(){
-		return frames.size();
+		int counter = 0;
+		for(int i = 0; i<frames.size(); i++){
+			counter++;
+		}
+		return counter;
 	}
 	
 	// Returns the game score
