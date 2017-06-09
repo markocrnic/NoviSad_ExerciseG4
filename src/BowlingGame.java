@@ -37,6 +37,10 @@ public class BowlingGame {
 		}
 		return score;
 	}
+	
+	public int scoreBonus(){
+		return 0;
+	}
 
 	public int getFrames() {
 		return frames.size();
