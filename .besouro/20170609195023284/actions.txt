@@ -92,3 +92,7 @@ CompilationAction 1497031843660 TestBowling.java
 UnitTestCaseAction 1497031846401 TestBowling.java FAIL
 UnitTestSessionAction 1497031846402 TestBowling.java FAIL
 EditAction 1497032046604 BowlingGame.java 837 4 2 0
+CompilationAction 1497032051223 TestBowling.java
+RefactoringAction 1497032068800 BowlingGame.java ADD void getFrames FIELD
+RefactoringAction 1497032069837 BowlingGame.java RENAME getFrames=>void getFrames() METHOD
+EditAction 1497032107034 TestBowling.java 695 4 9 4

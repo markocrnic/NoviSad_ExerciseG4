@@ -32,7 +32,7 @@ public class TestBowling {
 	public void testIfAddingFrameIsWorking(){
 		fr = new Frame(4,3);
 		bg.addFrame(fr);
-		assertEquals(2, bg.getFrame().size());
+		assertEquals(1, bg.getFrame());
 	}
 	
 
