@@ -36,5 +36,20 @@ public class TestBowling {
 		assertEquals(1, bg.getFrames());
 	}
 	
+	@Test(expected = BowlingException.class)
+	public void testIfAddingMoreThan10FramesThrowsException() throws BowlingException{
+		Frame fr1 = new Frame(1,1);
+		Frame fr2 = new Frame(1,1);
+		Frame fr3 = new Frame(1,1);
+		Frame fr4 = new Frame(1,1);
+		Frame fr5 = new Frame(1,1);
+		Frame fr6 = new Frame(1,1);
+		Frame fr7 = new Frame(1,1);
+		Frame fr8 = new Frame(1,1);
+		Frame fr9 = new Frame(1,1);
+		Frame fr10 = new Frame(1,1);
+		Frame fr11 = new Frame(1,1);
+	}
+	
 
 }
