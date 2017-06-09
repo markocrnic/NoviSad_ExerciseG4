@@ -205,3 +205,4 @@ RefactoringAction 1497034370473 TestBowling.java RENAME testIfLastFrameWhenStrik
 RefactoringAction 1497034373530 TestBowling.java RENAME testIfLastFrameWhenStrikeGives=>void testIfLastFrameWhenStrikeGivesThirdThrow FIELD
 RefactoringAction 1497034381092 TestBowling.java RENAME testIfLastFrameWhenStrikeGivesThirdThrow=>void testIfLastFrameWhenStrikeGivesThirdThrow() METHOD
 EditAction 1497034729393 BowlingGame.java 1415 6 6 0
+EditAction 1497034735792 TestBowling.java 2788 9 71 8
