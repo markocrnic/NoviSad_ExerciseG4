@@ -40,7 +40,8 @@ public class BowlingGame {
 	}
 	
 	public int scoreBonus(){
-		for(int i = 0; i<frames.size()-1; i++){
+		for(int i = 1; i<frames.size(); i++){
+				
 			bonus = frames.get(i);
 			if(frames.get(i-1).isStrike()){
 				bonusPoints = bonus.getFirstThrow() + bonus.getSecondThrow();
