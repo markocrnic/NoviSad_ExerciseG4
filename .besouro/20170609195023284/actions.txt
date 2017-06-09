@@ -96,3 +96,5 @@ CompilationAction 1497032051223 TestBowling.java
 RefactoringAction 1497032068800 BowlingGame.java ADD void getFrames FIELD
 RefactoringAction 1497032069837 BowlingGame.java RENAME getFrames=>void getFrames() METHOD
 EditAction 1497032107034 TestBowling.java 695 4 9 4
+CompilationAction 1497032111839 TestBowling.java
+EditAction 1497032136140 BowlingGame.java 895 5 3 0

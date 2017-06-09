@@ -27,6 +27,10 @@ public class BowlingGame {
 		//to be implemented
 	}
 	
+	public int getFrames(){
+		return frames.size();
+	}
+	
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score 
