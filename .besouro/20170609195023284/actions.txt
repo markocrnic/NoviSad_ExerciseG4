@@ -188,3 +188,6 @@ UnitTestCaseAction 1497034014524 TestBowling.java OK
 UnitTestSessionAction 1497034014526 TestBowling.java OK
 RefactoringAction 1497034055932 TestBowling.java ADD void testIfBonusIsReturnedWhenSpare() METHOD
 EditAction 1497034141456 TestBowling.java 2135 8 49 7
+UnitTestCaseAction 1497034145851 TestBowling.java FAIL
+UnitTestSessionAction 1497034145852 TestBowling.java FAIL
+EditAction 1497034199593 BowlingGame.java 1351 6 6 0
