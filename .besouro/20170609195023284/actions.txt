@@ -40,3 +40,6 @@ RefactoringAction 1497031140787 TestBowling.java RENAME testingIfS=>void testing
 RefactoringAction 1497031143318 TestBowling.java RENAME testingIfSp=>void testingIfSpare FIELD
 RefactoringAction 1497031149356 TestBowling.java RENAME testingIfSpare=>void testingIfSpareIsWorking() METHOD
 EditAction 1497031166715 TestBowling.java 348 2 4 2
+UnitTestCaseAction 1497031173313 TestBowling.java FAIL
+UnitTestSessionAction 1497031173315 TestBowling.java FAIL
+EditAction 1497031194734 Frame.java 762 6 10 0
