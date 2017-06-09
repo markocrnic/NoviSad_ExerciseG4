@@ -127,3 +127,13 @@ RefactoringAction 1497032582142 TestBowling.java RENAME test=>void testIfAddingM
 RefactoringAction 1497032584177 TestBowling.java RENAME testIfAddingMoreThan10FramesThrowsException=>void testIfAddingMoreThan10FramesThrowsException() METHOD
 EditAction 1497032645758 TestBowling.java 1225 5 21 4
 EditAction 1497032794905 TestBowling.java 1449 5 33 4
+UnitTestCaseAction 1497032801320 TestBowling.java OK
+UnitTestSessionAction 1497032801323 TestBowling.java OK
+RefactoringAction 1497032832371 BowlingGame.java ADD int score FIELD
+RefactoringAction 1497032849992 TestBowling.java ADD void test FIELD
+RefactoringAction 1497032851048 TestBowling.java RENAME test=>void testIF FIELD
+RefactoringAction 1497032852584 TestBowling.java RENAME testIF=>void testIf FIELD
+RefactoringAction 1497032856624 TestBowling.java RENAME testIf=>void testIfBowlingGame FIELD
+RefactoringAction 1497032859158 TestBowling.java RENAME testIfBowlingGame=>void testIfBowlingGameReturn FIELD
+RefactoringAction 1497032862206 TestBowling.java RENAME testIfBowlingGameReturn=>void testIfBowlingGameReturnsScore() METHOD
+EditAction 1497032902746 TestBowling.java 1594 6 36 5

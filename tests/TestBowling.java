@@ -54,5 +54,12 @@ public class TestBowling {
 		bg.addFrame(fr7);bg.addFrame(fr8);bg.addFrame(fr9);bg.addFrame(fr10);bg.addFrame(fr11);
 	}
 	
+	@Test
+	public void testIfBowlingGameReturnsScore(){
+		fr = new Frame(5,4);
+		bg = new BowlingGame();
+		assertEquals(9, bg.score());
+	}
+	
 
 }
