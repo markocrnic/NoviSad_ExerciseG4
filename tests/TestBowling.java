@@ -31,7 +31,7 @@ public class TestBowling {
 	@Test
 	public void testIfAddingFrameIsWorking() throws BowlingException{
 		fr = new Frame(4,3);
-		bg.addFrame(fr);
+		//bg.addFrame(fr);
 		assertEquals(1, bg.getFrames());
 	}
 	
