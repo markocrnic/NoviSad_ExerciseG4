@@ -21,3 +21,6 @@ UnitTestSessionAction 1497030998529 TestBowling.java FAIL
 FileOpenedAction 1497031001469 Frame.java 671 6 7 0
 RefactoringAction 1497031016869 Frame.java ADD int score FIELD
 EditAction 1497031059427 Frame.java 714 6 8 0
+CompilationAction 1497031062766 TestBowling.java
+CompilationAction 1497031062767 TestBowling.java
+EditAction 1497031083243 Frame.java 732 6 9 0
