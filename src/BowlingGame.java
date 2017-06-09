@@ -31,6 +31,7 @@ public class BowlingGame {
 		//to be implemented
 	}
 	
+	
 	// Returns the game score
 	public int score(){
 		for (Frame frame : frames) {
@@ -48,6 +49,10 @@ public class BowlingGame {
 			}
 			else if(frames.get(i-1).isSpare()&&frames.get(i-1)!=frames.get(9)){
 				bonusPoints += bonus.getFirstThrow();
+			}else if(frames.get(i).isStrike()&&frames.get(i) == frames.get(9)){
+				bonusPoints += bonus.score();
+			}else if(frames.get(i).isSpare()&&frames.get(i) == frames.get(9)){
+				bonusPoints += bonus.score() + bonus.getThirdThrow();
 			}
 			
 		}

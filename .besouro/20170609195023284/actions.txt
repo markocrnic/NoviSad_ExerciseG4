@@ -206,3 +206,17 @@ RefactoringAction 1497034373530 TestBowling.java RENAME testIfLastFrameWhenStrik
 RefactoringAction 1497034381092 TestBowling.java RENAME testIfLastFrameWhenStrikeGivesThirdThrow=>void testIfLastFrameWhenStrikeGivesThirdThrow() METHOD
 EditAction 1497034729393 BowlingGame.java 1415 6 6 0
 EditAction 1497034735792 TestBowling.java 2788 9 71 8
+UnitTestCaseAction 1497034740079 TestBowling.java FAIL
+UnitTestSessionAction 1497034740081 TestBowling.java FAIL
+RefactoringAction 1497034770682 Frame.java ADD int thirdThrow FIELD
+RefactoringAction 1497034771721 Frame.java RENAME thirdThrow=>int thirdThrow() METHOD
+RefactoringAction 1497034789390 Frame.java REMOVE thirdThrow() METHOD
+RefactoringAction 1497034803973 BowlingGame.java ADD int thirdThrow FIELD
+RefactoringAction 1497034806013 BowlingGame.java RENAME thirdThrow=>int thirdThrow() METHOD
+RefactoringAction 1497035075474 Frame.java ADD Frame(int, int, int) METHOD
+RefactoringAction 1497035085062 Frame.java ADD int thirdT FIELD
+RefactoringAction 1497035087106 Frame.java RENAME thirdT=>int thirdThrow FIELD
+RefactoringAction 1497035109222 Frame.java ADD int getSecondThrow()/2 METHOD
+RefactoringAction 1497035112756 Frame.java RENAME getSecondThrow()/2=>int getThirdThrow() METHOD
+RefactoringAction 1497035144526 BowlingGame.java REMOVE thirdThrow() METHOD
+EditAction 1497035149245 BowlingGame.java 1655 6 6 0
