@@ -35,7 +35,7 @@ public class BowlingGame {
 		return 0;
 	}
 
-	public List<Frame> getFrames() {
-		return frames;
+	public int getFrames() {
+		return frames.size();
 	}
 }
