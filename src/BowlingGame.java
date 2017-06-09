@@ -48,12 +48,12 @@ public class BowlingGame {
 				bonusPoints += bonus.getFirstThrow() + bonus.getSecondThrow();
 			}
 			else if(frames.get(i-1).isSpare()&&frames.get(i-1)!=frames.get(9)){
-				bonusPoints += bonus.getFirstThrow();
-			}else if(frames.get(i-1).isStrike()&&frames.get(i-1) == frames.get(9)){
-				bonusPoints += frames.get(i-1).score() + frames.get(i-1).getThirdThrow();
-			}else if(frames.get(i-1).isSpare()&&frames.get(i-1) == frames.get(9)){
-				bonusPoints += frames.get(i-1).score() + frames.get(i-1).getThirdThrow();
-			}
+				bonusPoints += bonus.getFirstThrow();}
+//			}else if(frames.get(i-1).isStrike()&&frames.get(i-1) == frames.get(9)){
+//				bonusPoints += frames.get(i-1).score() + frames.get(i-1).getThirdThrow();
+//			}else if(frames.get(i-1).isSpare()&&frames.get(i-1) == frames.get(9)){
+//				bonusPoints += frames.get(i-1).score() + frames.get(i-1).getThirdThrow();
+//			}
 			
 		}
 		return score() + bonusPoints;
