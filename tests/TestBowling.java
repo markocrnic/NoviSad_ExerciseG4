@@ -55,11 +55,21 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void testIfBowlingGameReturnsScore(){
+	public void testIfBowlingGameReturnsScore() throws BowlingException{
 		fr = new Frame(5,4);
 		bg = new BowlingGame();
 		bg.addFrame(fr);
 		assertEquals(9, bg.score());
+	}
+	
+	@Test
+	public void testIfScoreIsReturnedWithBonus() throws BowlingException{
+		fr = new Frame(10,0);
+		Frame fr1 = new Frame(5,4);
+		bg = new BowlingGame();
+		bg.addFrame(fr);
+		bg.addFrame(fr1);
+		assertEquals(28, bg.scoreBonus());
 	}
 	
 

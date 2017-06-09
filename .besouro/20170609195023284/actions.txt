@@ -144,3 +144,17 @@ EditAction 1497032973930 BowlingGame.java 972 5 4 0
 UnitTestCaseAction 1497032980565 TestBowling.java FAIL
 UnitTestSessionAction 1497032980574 TestBowling.java FAIL
 EditAction 1497033024557 TestBowling.java 1614 6 37 5
+CompilationAction 1497033031128 TestBowling.java
+UnitTestCaseAction 1497033034657 TestBowling.java FAIL
+UnitTestSessionAction 1497033034659 TestBowling.java FAIL
+CompilationAction 1497033046716 TestBowling.java
+UnitTestCaseAction 1497033048099 TestBowling.java OK
+UnitTestSessionAction 1497033048104 TestBowling.java OK
+RefactoringAction 1497033079403 TestBowling.java ADD void testIf FIELD
+RefactoringAction 1497033083092 TestBowling.java RENAME testIf=>void testIfScoreIs FIELD
+RefactoringAction 1497033085327 TestBowling.java RENAME testIfScoreIs=>void testIfScoreIsReturned FIELD
+RefactoringAction 1497033089364 TestBowling.java RENAME testIfScoreIsReturned=>void testIfScoreIsReturnedWithBonus() METHOD
+RefactoringAction 1497033108555 Frame.java REMOVE bonus FIELD
+RefactoringAction 1497033119696 BowlingGame.java ADD int scoreWith FIELD
+RefactoringAction 1497033123230 BowlingGame.java RENAME scoreWith=>int scoreBonus() METHOD
+EditAction 1497033232320 TestBowling.java 1887 7 43 6
