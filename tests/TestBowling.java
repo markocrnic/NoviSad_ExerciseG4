@@ -58,6 +58,7 @@ public class TestBowling {
 	public void testIfBowlingGameReturnsScore(){
 		fr = new Frame(5,4);
 		bg = new BowlingGame();
+		bg.addFrame(fr);
 		assertEquals(9, bg.score());
 	}
 	
