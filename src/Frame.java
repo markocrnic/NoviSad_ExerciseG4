@@ -25,7 +25,7 @@ public class Frame {
 	
 	public int bonusScore(){
 		if(isStrike()){
-			bonus = 
+			//bonus = 
 		}
 		return 0;
 	}
