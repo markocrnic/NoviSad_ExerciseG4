@@ -126,3 +126,4 @@ RefactoringAction 1497032573094 TestBowling.java ADD void test FIELD
 RefactoringAction 1497032582142 TestBowling.java RENAME test=>void testIfAddingMoreThan10FramesThrowsException FIELD
 RefactoringAction 1497032584177 TestBowling.java RENAME testIfAddingMoreThan10FramesThrowsException=>void testIfAddingMoreThan10FramesThrowsException() METHOD
 EditAction 1497032645758 TestBowling.java 1225 5 21 4
+EditAction 1497032794905 TestBowling.java 1449 5 33 4
