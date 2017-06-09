@@ -79,3 +79,7 @@ RefactoringAction 1497031511652 TestBowling.java RENAME testingIfInvalidScore=>v
 RefactoringAction 1497031577446 TestBowling.java ADD import jdk.nashorn.internal.ir.ThrowNode IMPORT
 RefactoringAction 1497031624427 Frame.java ADD int bonus FIELD
 EditAction 1497031625035 Frame.java 787 6 10 0
+RefactoringAction 1497031639152 BowlingException.java ADD BowlingException() METHOD
+RefactoringAction 1497031650209 BowlingException.java ADD BowlingException()/2 METHOD
+RefactoringAction 1497031654740 BowlingException.java RENAME BowlingException()/2=>BowlingException(String) METHOD
+EditAction 1497031662212 BowlingException.java 172 2 2 0
